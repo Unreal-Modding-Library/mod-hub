@@ -1,2 +1,4 @@
 # Mod-Hub
-Mod Hub docs/devkit
+A shared settings window for blueprint mods that want to use it.
+
+

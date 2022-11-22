@@ -39,6 +39,7 @@ There are 3 interfaces:
 ![6](/Images/IHubMod_Pages_Impl.png)
 
 **Optional:**
+
 4. Right click the event functions and implement them. You can now handle these events.
 5. Mod Registered gets called when your mod is registered with Mod Hub. It returns a reference to the Hub.
 6. As shown are some of the functions that can be used with the IHub reference.
@@ -47,3 +48,5 @@ There are 3 interfaces:
 
 ### Notes
 - Do not pack the _ModHub folder nor its contents with your mod. A copy already exists with the ModHub itself.
+- If you want to view the ModHub source code, you can find it in the Source folder. Make sure you don't pack this with your mod.
+- There is an example ModHub mod called "Test", if you get stuck.

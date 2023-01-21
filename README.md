@@ -2,15 +2,15 @@
 A shared settings window for blueprint mods that want to use it.
 
 ## How to use as a mod user
-Download ModHub.pak and install into AstroColony/Content/Paks/LogicMods (Unreal Mod Loader is required)
+Download ModHub.pak and install into `<GameProjectName>/Content/Paks/LogicMods` ([Unreal Mod Loader](https://github.com/RussellJerome/UnrealModLoader) is required)
 
 ## How to use as a mod developer
-Download the most recent release of _ModHub.zip
+Download the most recent release of `_ModHub.zip`
 
-Extract the folder _ModHub from within this .zip into your UE project's Content folder. So an example project path should be AstroColony/Content/_ModHub
+Extract the folder `_ModHub` from within this `.zip `into your UE project's `Content` folder. So an example project path should be `<GameProjectName>/Content/_ModHub`
 
 There are 3 interfaces:
-* `IHub` - Coontains functions that can be called on the Mod Hub Manager. More on that later
+* `IHub` - Coontains functions that can be called on the `Mod Hub Manager`. More on that later
 * `IHubPageWidget` - The interface to add to every widget blueprint page that you want to add to Mod Hub
 * `IHubMod` - The interface to add to the main mod actor of your mod
 
@@ -47,6 +47,6 @@ There are 3 interfaces:
 ![7](/Images/Functions.png)
 
 ### Notes
-- Do not pack the _ModHub folder nor its contents with your mod. A copy already exists with the ModHub itself.
-- If you want to view the ModHub source code, you can find it in the Source folder. Make sure you don't pack this with your mod.
+- Do not pack the `_ModHub` folder nor its contents with your mod. A copy already exists with the ModHub itself.
+- If you want to view the ModHub source code, you can find it in the `Source` folder. Make sure you don't pack this with your mod.
 - There is an example ModHub mod called "Test", if you get stuck.
